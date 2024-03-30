@@ -1,12 +1,12 @@
 body{
     /* see issue  about image*/
-    background-image: url("Julia.jpeg");
+    background-image: url("../images/Julia.jpeg"); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
   h1{
-    /*space around an element*/
+    /*space around an element-magin*/
     background:linear-gradient(to right,skyblue, lightyellow);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,7 +14,7 @@ body{
     margin: 20px;
   }  
   p{
-    background-color:  rgb(233, 233, 233);
+    background-color:  rgb(230, 206, 176);
     padding: 20px;
     margin: 20px;
   }

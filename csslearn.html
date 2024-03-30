@@ -11,23 +11,55 @@
             h1{
                 color: rgb(1, 53, 82);
                 font-family: serif, 'Times New Roman', Times, serif;
-                
+                text-align: center;
                 padding-left: 5%;
+                /*
+                1. Simple selectors (select elements based on name, id, class) (ID uses # and class used .word)
+                2. Combinator selectors (select elements based on a specific relationship between them)
+                3. Pseudo-class selectors (select elements based on a certain state)
+                4. Pseudo-elements selectors (select and style a part of an element)
+                5. Attribute selectors (select elements based on an attribute or attribute value)*/
             }
-            p{
-                color: #fff;
+            #p1{
+                color:rgb(1, 53, 82);
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                padding: 5%;
+                padding: 2px 10px;
             }
+            h3{
+                color: #000000;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 10px;
+                
+            }
+            #p2{
+                color: #000000;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding: 2px 10px;
+            }
+           
         </style>
     </head>
     <body>
+        <!--Check why p2 is not being applied and p1 is?-->
+        <!--Cause ol was under para, soln added (div) para is not a container-->
         <h1>Css file of 30 march</h1>
-       <p> 
+       <p id="p1"> 
         CSS is the language we use to style an HTML document.
-
+        <br>
         CSS describes how HTML elements should be displayed.
-     </p>
+       </p>
+       
+        
+            <h3>What is CSS?</h3>
+            <div id="p2">
+            <ol>
+                <li>CSS stands for Cascading Style Sheets</li>
+                <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                <li>External stylesheets are stored in CSS files</li>
+            </ol>
+        </div>
+
      <!--my back is paining like a crack work-->
     </body>
 </html>
