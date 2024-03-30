@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(243, 249, 252);
+}
+h1{
+    color: rgb(58, 99, 248);
+    font-family: DM Serif Display,Lora;
+}
+
+p{
+color: rgb(2, 57, 255);
+font-family:Open Sans, roboto, Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+text-align: center;
+text-decoration:coral wavy underline;
+font-size: 24px;
+
+}
+/*font-family
+font-style
+font-weight
+text-align
+text-decoration
+font-size */
