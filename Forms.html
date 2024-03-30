@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<title>Forms</title>
+    </head>
+    <body>
+
+<form action="action_page.php" method="GET">
+    <!--do not use GET for passwards insted use post for secure information-->
+  
+  <div>
+
+<label>Title:</label>
+
+    <label for="Mr">Mr.</label>
+    <input type="radio" name="tittle" id="Mr">
+
+    <labelfor="Ms.">Ms.</label>
+    <input type="radio" name="tittle" id="Ms">
+
+    <label for="Mrs.">Mrs.</label>
+    <input type="radio" name="tittle" id="Mrs">
+
+  </div>
+    <br>
+    <div>
+    <label for="fname">First Name :</label>
+    <input type="text" name="fname" id="fname" placeholder="Merry" required>
+</div>
+<br>
+<div>
+    <label for="lname">Last Name :</label>
+    <input types="text" name="lname" id="lname" placeholder="Smith" required>
+</div>
+
+<br>
+
+<div>
+    <label for="Pas">Password:</label>
+    <input type="password" name="Pass" id="Pass" maxlength="12" required>
+</div>
+<br>
+<div>
+    <label for="mail">Email:</label>
+    <input type="email" name="mail" id="mail" placeholder="merryjain@gmail.com" required>
+</div>
+
+<br>
+<div>
+    <label for="number">Phone:</label>
+    <input type="tel"name="number" id="number" placeholder="56749xxxxx" required>
+</div>
+
+<br>
+<div>
+    <label for="bdate">Birthdate:</label>
+    <input type="date" name="bdate" id="bdate" required>
+</div>
+<br>
+<div>
+    <label for="num">Quantity:</label>
+    <input type="number" name="num" id="num" min="0" max="10">
+</div>
+<br>
+<div>
+    <label for="payment">Payment:</label>
+    <select id="payment" name="payment">
+        <option>UPI</option>
+        <option>Master</option>
+        <option>Online Bank Transation</option>
+    </select>
+</div>
+<br>
+<div>
+    <label for="Subscribe">Subscribe</label>
+    <input type="checkbox" name="Subscribe" id="Subscribe">
+</div>
+<br>
+<div>
+    <input type="reset">
+</div>
+
+<br>
+<div>
+    <input type="submit">
+</div>
+</form>
+    </body>
+</html>
