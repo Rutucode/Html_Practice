@@ -7,7 +7,9 @@
         <style>
             body{
                 background-color: lightblue;
+                opacity: .5;
             }
+            /*added opacity here*/
             h1{
                 color: rgb(1, 53, 82);
                 font-family: serif, 'Times New Roman', Times, serif;
@@ -18,7 +20,9 @@
                 2. Combinator selectors (select elements based on a specific relationship between them)
                 3. Pseudo-class selectors (select elements based on a certain state)
                 4. Pseudo-elements selectors (select and style a part of an element)
-                5. Attribute selectors (select elements based on an attribute or attribute value)*/
+                5. Attribute selectors (select elements based on an attribute or attribute value)
+                */
+                
             }
             #p1{
                 color:rgb(1, 53, 82);
@@ -42,6 +46,19 @@
     <body>
         <!--Check why p2 is not being applied and p1 is?-->
         <!--Cause ol was under para, soln added (div) para is not a container-->
+         <!--
+            #id	#firstname	Selects the element with id="firstname"
+                <br>
+         .class	.intro	Selects all elements with class="intro"
+         <br>
+            element.class	p.intro	Selects only <p> elements with class="intro"
+                <br>
+           (*)	*	Selects all elements
+             <br>
+           element	p	Selects all <p> elements
+             <br>
+            element,element,..	div, p	Selects all <div> elements and all <p> elements
+                -->
         <h1>Css file of 30 march</h1>
        <p id="p1"> 
         CSS is the language we use to style an HTML document.
