@@ -1,0 +1,23 @@
+h1{
+    color: brown;
+    border-top:dotted;
+    border-bottom: dotted;
+    border-color:rgb(124, 153, 214);
+    border-left-style: groove;
+    padding-left: 5px;
+}
+
+p{
+    border-style:outset;
+    border-color: rgb(193, 148, 235);
+    border-width: 5px;
+    border-radius: 10px;
+    padding:8px;
+    
+
+}
+#para3{
+    border-style: solid;
+    border-color: rgb(251, 176, 95);
+}
+

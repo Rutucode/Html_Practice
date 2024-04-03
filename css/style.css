@@ -1,0 +1,30 @@
+
+body{
+    background-color: rgb(81, 86, 98);
+}
+h1{
+    color: rgb(81, 173, 253);
+}
+
+p{
+    color: rgb(250, 250, 250); 
+    font-family:Poppins;
+    font-style: normal 24px;
+}
+#Page1{
+    color: aquamarine;
+}
+.even{
+    color: rgb(235, 214, 255);
+}
+
+a{
+    font-size: medium; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+}
+/*I learned style through 
+1 Class
+2 ID
+General headers
+*/
