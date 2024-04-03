@@ -1,0 +1,51 @@
+
+body{
+    background: url(D:\A_CODE\HTML\learn-html\images\tangerine-newt-QBLRt7r9phc-unsplash.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+    
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-bottom: 1px;
+}
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 188, 105);
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(65, 6, 6);
+    display: block;
+}
+ul li:hover{
+    background-color: lightcoral;
+}
+
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+
+h1{
+   
+    clear:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+p{
+    color: blueviolet;
+}
