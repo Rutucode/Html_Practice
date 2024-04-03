@@ -3,6 +3,7 @@ body{
     background: url(D:\A_CODE\HTML\learn-html\images\tangerine-newt-QBLRt7r9phc-unsplash.jpg);
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
    
 }
     
@@ -40,7 +41,8 @@ ul li:hover ul li{
 
 
 h1{
-   
+   margin-top:  500px;
+   padding: 40px;
     clear:left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:black;
