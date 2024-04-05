@@ -1,0 +1,40 @@
+h1{
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    color: #480505;
+}
+#customers{
+    font-family: Poppins, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers td, #customers th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#customers tr:hover{
+    background-color: #ddd;
+}
+#customers th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #480505;
+    color: white;
+}
+.shares{
+    border-collapse: collapse;
+    width: 100%;
+}
+.shares th, td{
+    padding:8px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.shares tr:hover{
+    background-color: tomato;
+}
