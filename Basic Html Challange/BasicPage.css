@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    background-image: url("https://www.foodnavigator-usa.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/news/markets/deloitte-report-consumers-fresh-food-spending-on-the-rise/10363851-1-eng-GB/Deloitte-report-Consumers-fresh-food-spending-on-the-rise.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%; 
+   
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #2ECC71;
+    font-family: Poppins, sans-serif;
+}
+.logo{
+    color: white;
+    /*text-transform: uppercase;*/
+    letter-spacing:5px;
+    font-size: 20px;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.tabs li{
+    list-style: none;
+}
+.tabs a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+    /*float: left;*/
+}
+.body-text{
+    display: flex;
+    font-family: Poppins, sans-serif;
+    justify-content:right;
+    margin-top: 0px;
+   /* margin-left: 100px;*/
+    padding: 100px;
+    color:#569CF7;   
+}
+h1{
+    font-size: 50px;
+  /*  background-color: #fff;*/
+   
+}
+.btn{
+   text-align: right;
+   margin-top: 70px;
+   margin-right: 200px;
+  
+}
+
+
+div .deals{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    background-color: #569CF7;
+    color: white;
+    border:none;
+    padding:5px 60px 5px 60px;
+    justify-content: center;
+    border-radius: 25px;
+    margin: auto;
+    position:relative;
+    cursor: pointer;
+    margin-bottom: 300px;
+
+}
+
+div .deals:hover {
+   background-color: coral;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 100px;
+}
+ 
+
