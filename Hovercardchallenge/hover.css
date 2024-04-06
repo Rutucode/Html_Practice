@@ -28,6 +28,6 @@ body{
 .btn:hover{
     transform: scale(1.1);
     background-image:radial-gradient( rgb(254, 169, 138) , rgb(255, 68, 0));
-   color: #6c00a2;
+  
 
 }
