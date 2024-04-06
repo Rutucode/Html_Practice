@@ -1,0 +1,52 @@
+.container{
+    position: relative;
+}
+.topright{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 32px;
+    font-family: poppins, sans-serif;
+    color: coral;
+    
+}
+img{
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+.topleft{
+    position:absolute ;
+    top: 8px;
+    left: 16px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+}
+
+.bottomleft{
+    position:absolute ;
+    bottom: 20px;
+    left: 16px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.bottomright{
+    position:absolute ;
+    bottom: 20px;
+    right: 16px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.center{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 13, 0);
+
+}
