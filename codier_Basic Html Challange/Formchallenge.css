@@ -1,0 +1,75 @@
+
+
+.montserrat- <uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style:normal;
+}
+
+body{
+   background-color:lightcoral; 
+   /*  background-color:lightsalmon;*/
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*border: none;
+color: white;
+  max-width: 0;
+   box-sizing: border-box;
+   width: 500px;
+   margin: 0;
+    width: 0;
+    justify-content: space-around
+    text-align: center;;
+*/
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  10px 10px 10px 0px rgba(0, 0, 0, 0.27); 
+   
+    
+}
+input[type='text'], input[type='password'], input[type='email'], input[type='tel'], input[type='datetime'], input[type='payment'] {
+    width :100%;
+    padding :15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+    border-radius: 7px;
+   /* border-bottom: 1px solid teal; */
+}
+#payment{
+    width :100%;
+    padding :15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke; 
+    border-radius: 7px;
+}
+.button{
+
+    background-color: rgb(250, 115, 115);
+    padding: 15px;
+    color: white;
+    border:none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.204);
+    
+}
+.button:hover{
+opacity: 0.8;
+}
+
+

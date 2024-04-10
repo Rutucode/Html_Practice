@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms Challenge</title>
+    <link rel="stylesheet" href="Formchallenge.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <form action="action_page.php" method="GET"></form>
+    <div class="container">
     <form>
-        Personal Information
-        First Name:<input type="text" name="Username" placeholder="Username"><br>
-        Last Name:<input type="text" name="Username" placeholder="Username"><br>
-        Email Id:<input type="email" name="Email" placeholder="abc@gmail.com"><br>
-        Phone no.:<input type="tel" name="Username" placeholder="568-349-0586"><br>
-        <Address>Address:<input type="Address" name="Username" placeholder="Address"><br></Address>
-        Birthday:<input type="datetime" name="Bday" placeholder="dd/mm/yyyy"><br>
-        Name:<input type="text" name="Username" placeholder="Username"><br>
+       <h1> Register:</h1>
+        <div>
+          <label>First Name:</label> 
+          <br>
+           <input type="text" name="Username" placeholder="Username" required>
+        </div>
+        <br>
+        <div>
+        <label>   Email Id:</label>
+        <br> 
+            <input type="email" name="Email" placeholder="abc@gmail.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="Pas">Password:</label>
+            <br>
+            <input type="password" name="Pass" id="Pass" maxlength="12" placeholder="Enter password" required>
+        </div>
+        <br>
+        <div>
+            Phone no:
+            <br>
+            <input type="tel" name="Username" placeholder="568-349-0586">
+        </div>
+        <br>
+        <div>
+            Birthdate: 
+            <br>
+            <input type="datetime" name="Bday" placeholder="dd/mm/yyyy" title="Birthdate" required>
+        </div>
+        <br>
+        <div>
+           <label for="payment"></label>
+          Payment mode:
+          <br>
+           <select id="payment" name="payment" input type="payment">
+            <option>UPI</option>
+            <option>Master</option>
+            <option>Online Bank Transation</option>
+        </select>
+        </div>
+        <br>
+        <div>
+            <button class="button">Save</button>
+            <button class="button">Submit</button>
+        </div>
+        
 
     </form>
+</div>
 </body>
+
 </html>
