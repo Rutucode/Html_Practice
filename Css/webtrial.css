@@ -1,21 +1,108 @@
-*{
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 30px;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
-    /* grid-template-columns: 2fr 1fr;
-     grid-template-columns: 100px 150px;
+     grid-template-columns: 2fr 1fr;
+    
+        grid-auto-rows: 100px;
+        grid-template-columns: repeat(5, 100px);
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+        grid-gap: 20px;
+        justify-items: center;
+        justify-items:start;
+        justify-items:end;
+        justify-items:space-around;
+        align-items: center;
+        align-items: start;
+        align-items: end;
+       
+            justify-content: start;
+            justify-content: end;
+        align-content: center;
+          align-content: start;
     */
-    grid-template-columns: repeat(5, 100px);
+/*display: grid; 
+   grid-template-columns: 100px 150px;
+    grid-template-rows: 200px 150px;
     height: 100vh;
     border: 10px solid red;
+    justify-content: center;
+    align-content: space-around;
+}*/
+/*
+.grid-item {
+    background-color: bisque;
+    border: 4px solid lightcoral;
+    padding: 20px;
 }
-.grid-item{
-background-color: bisque;
-border: 4px solid lightcoral;
-padding: 20px;
+--------------------------------------------------------
+*/
+/*
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center;
+   justify-content: space-between;
+   align-items:center;
+  
+   
 }
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    flex-shrink: 0; 
+    /* The item will not shrink as it is 0 shrink
+}*/
+
+/*
+.flexbox-item-2 {
+    min-height: 200px;
+    align-self: center;
+    
+  
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+}
+
+  /* 
+    flex-grow: 1; 
+    The item will grow and takes up the entire space
+    -----------------------------
+    */
+
+  /* p{
+        font-size: 30px;
+        background-color: lightsalmon;
+        /* display:block ;*/
+        /*display:inline ;
+        Appear on the same line without break
+        Cannot change height and width of inline element*/
+       /* display:inline-block;
+        height: 100px;
+        width: 300px;
+        The height and width works in display inline plus we can use it for nav bar*/
+        /* display: none;   
+    }
+    ----------------------------------------
+    */
+    /* Position:static-by default same as not setting position property at all
+        Position:fixed- nothing to do with parent element, fixed in place
+        Position:relative- same as static bt you can change top,left, bottom, right
+        Position:absolute- removes document from  flow,
+    */
