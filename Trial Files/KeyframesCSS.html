@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes</title>
+    <style type="text/css">
+        body{
+            padding:50px;
+        }
+        .box{
+            background-color: rgb(255, 46, 46);
+            width: 200px;
+            height: 200px;
+            position: relative;
+            display: inline-block;
+            animation-name: myframes;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            animation-direction: forwards;
+            animation-play-state: running;
+
+        }
+        @keyframes myframes{
+           /* from{
+                heignt:200px;
+            }
+            to{
+                height:500px;
+                background-color: rgb(59, 28, 112);
+            }*/
+            0%{
+                height: 200px;
+            }
+            16%{
+                background-color: orange;
+            }
+            32%{
+                background-color: yellow;
+            }
+            48%{
+                background-color: green;
+            }
+            60%{
+                background-color: blue;
+            }
+            80%{
+                background-color: indigo;
+            }
+            100%{
+                background-color: violet;
+                height: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        
+    </div>
+</body>
+</html>

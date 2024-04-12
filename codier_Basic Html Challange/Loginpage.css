@@ -1,0 +1,49 @@
+.unna-regular {
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .unna-bold {
+    font-family: "Unna", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .unna-regular-italic {
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .unna-bold-italic {
+    font-family: "Unna", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+*{
+    box-sizing: border-box;
+    font-family:'unna', serif ;
+}
+body{
+border-color: black;
+border-color: 3px solid black;
+background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(111, 0, 255));;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 700px;
+    padding: 15px;
+    border-radius: 25px;
+   
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}

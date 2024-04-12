@@ -17,10 +17,29 @@ header{
 }
 aside{
     background: #f780ac;
+    grid-template-rows: auto;
 }
 footer{
     background: #000;
+    grid-template-rows: 60px;
 }
 .nav-list{
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+
+}
+.nav-item{
+    margin: 0;
+    left: 10px;
+    right: 10px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #fff;
 
 }
