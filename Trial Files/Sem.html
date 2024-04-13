@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--validation, no validate, embed tag-->
+    <header class="header" role="banner">This is where the banner will be displayed</header>
+    <form onsubmit="return validateForm()">
+        <div>
+        <label>Name <em>*</em></label>
+        <input type="text" name="name" placeholder="Name" autofocus  required>
+    </div>
+        <div>
+        <label>Email <em>*</em></label>
+        <input type="email" name="name" placeholder="abc@gmail.com" required>
+    </div>
+        <div>
+        <label>Password <em>*</em></label>
+        <input type="password" name="name" title="3 uppercase and 3 numbers" minlength="8" pattern="(A-Z)(4)(1-9)(4)" required>
+    </div>
+        <div>
+        <label>Submit</label>
+        <input type="submit" value="submit">
+      <br>
+        <input type="submit" value="save for later" formnovalidate>
+    </div>
+    </form>
+</body>
+</html>

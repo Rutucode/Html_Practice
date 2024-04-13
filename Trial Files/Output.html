@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+    <script>
+       function CalculateBMI(feet, inches, pounds, resultElementName){
+        inches = Number (inches)
+        pounds = Number (pounds)
+        feet = Number (feet)
+        var totalInches = (feet * 12) + inches
+        var resultElement = document.getElementById(resultElementName)
+        resultElement.innerHTML= Math.round(pounds * 703 * 10 / totalInches /totalInches ) / 10
+       }
+    </script>
+</head>
+<body>
+    <input type="search" placeholder="search bar">
+    <Form action="#">
+        <label for="feet inches">Height</label>
+        <input type="feet">feet<br><br>
+        <label></label>
+        <input type="inches">inches<br><br>
+        <label for="pounds">Weight</label>
+        <input type="pounds">Pounds<br><br>
+        
+        <input type="button" name="calc" value="Calculate" onclick="CalculateBMI(this .form .feet .value, this .form .inches .value, this.form.pounds.value, 'result ')"><br><br>
+    </Form>
+    <p>Your BMI: <output id="result"></output></p>
+    <table cellpadding="5">
+    <tr>
+        <td><b>BMI</b></td>
+        <td><b>Weight status</b></td>
+    </tr>
+    <tr>
+        <td>Below 18.5</td>
+        <td>underweight </td>
+    </tr>
+    <tr>
+        <td>25.0</td>
+        <td>Over Weight</td>
+    </tr>
+</table>
+</body>
+</html>
