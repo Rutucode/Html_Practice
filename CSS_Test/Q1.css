@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    height: 1000px;
+}
+.orange{
+    display: block;
+    position: absolute;
+    background-color: orange;
+    width: 50%;
+    height: 60%;
+}
+h1{
+    position: relative;
+   justify-content: center;
+   text-align: center;
+   vertical-align: middle;
+   top: 50%;
+    color: #fff;
+
+}
+.blue{
+    display: block;
+    position: absolute;
+    background-color: blue;
+    color: #fff;
+    width: 50%;
+    height: 40%;
+    bottom: 0;
+}
+
+.Red{
+    display: block;
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    width: 30%;
+    height: 100%;
+    right:20%; 
+    transform: calc(50% - 50%);
+    z-index: -2;
+}
+.Green{
+    display: block;
+    position: absolute;
+    background-color: green;
+    color: #fff;
+    width: 20%;
+    height: 100%;
+    right: 0;
+}
