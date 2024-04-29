@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="SurveyForm.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form Project</h1>
+    <p id="description">Thank you for your time</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+        <label for="name" id="name-label">Name: <input id="name" name="name" type="text" placeholder="Enter your name"
+                required /></label><br>
+
+        <label for="email" id="email-label">Email: <input id="email" name="email" type="email"
+                placeholder="Enter email address" required /></label><br>
+
+        <label for="number" id="number-label">Number: <input id="number" name="number" type="number" required
+                pattern="1-9" min="1" Max="120" placeholder="Enter your number" /></label><br>
+
+        <label>Are you intrested for inperson interview ?</label><br>
+        <select id="dropdown" name="dropdown" required>
+            <option value=""> Select one</option>
+            <option value="1">Intrested </option>
+            <option value="2">Not intrested </option>
+        </select><br>
+        <label>Would you like to participate in testing trials:<br>
+            <input type="radio" checked id="radio" name="single-choice" value="1">Yes <br>
+            <input type="radio" id="radio" name="single-choice" value="2">No
+        </label><br>
+        <label>What types of user research interviews you are comfortable with?
+            <input type="checkbox" checked id="checkbox" name="checkbox" value="1">Group inteview <br>
+            <input type="checkbox" id="checkbox" name="checkbox" value="2">Online <br>
+            <input type="checkbox" id="checkbox" name="checkbox" value="3">Inperson <br>
+            <input type="checkbox" id="checkbox" name="checkbox" value="4">Phone interview<br>
+
+        </label><br>
+        <label>Any comments or suggestions?</label>
+        <textarea></textarea><br>
+        <button id="submit">Submit</button>
+
+</body>
+
+</html>
