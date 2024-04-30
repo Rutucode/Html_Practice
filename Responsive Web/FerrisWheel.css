@@ -47,6 +47,7 @@
     border: 2px solid;
     transform-origin: 50% 0%;
     animation: cabins 10s ease-in-out infinite;
+   
   }
   
   .cabin:nth-of-type(1) {
@@ -99,4 +100,5 @@
     100% {
       transform: rotate(-360deg);
     }
-  }
+   
+   }
