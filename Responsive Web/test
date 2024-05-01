@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="PortfolioWebpage.css">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <nav id="navbar">
+                <div class="heading">
+                    <h3>RP</h3>
+                </div>
+                <ul class="nav-links">
+                    <!-- <a href="index.html" class="active"></a>-->
+                    <li><a href="https://www.behance.net/rutujapawar799a" class="work">Work</a></li>
+                    <li><a href="https://rutujapawar500075090.blogspot.com/" class="blog">Blog</a></li>
+                    <li><a href="#" class="about">About me</a></li>
+                    <li><a href="#git" class="git-link">Git</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="welcome-section">
+            <h1 class="myname"> 👋 I am Rutuja Pawar</h1>
+
+            <p> A <mark>Industrial & Product designer</mark>, Design researcher</p>
+            <!--
+ <div class="myphotop">
+        <img src=https://mir-s3-cdn-cf.behance.net/user/230/6a36af303231043.63a5c6a0228ab.jpg alt="My photo" class="myphoto">
+    </div>
+    -->
+            <h3>
+                <em><q>Design is a continous process</q></em>
+            </h3>
+
+        </div>
+        <div id="projects">
+            <div class="project-tile">
+                <a href="#" id="projects"></a>
+            </div>
+        </divs>
+
+        <div class="git">
+            <h3>Git</h3>
+            <a href="https://github.com/Rutucode" id="profile-link" target="_blank">My git link</a>
+        </div>
+        <footer>
+            <p>Thanks for reaching the bottom of this page. If you like what you see, let's connect and build something
+                together!</p>
+            <div>
+                <ul>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="rutujapawarhere08@gmail.com">Email me</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://media3.giphy.com/media/JVmYAO3MkGNiM/giphy.gif" alt="Hi-kitty" class="gif">
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
