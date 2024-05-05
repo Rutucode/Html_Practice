@@ -1,0 +1,40 @@
+:root {
+    --color-light: lightgray;
+    --color-dark: darkgray;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.dot{
+   
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px;
+    animation-name: dots;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes dots{
+    0%{
+        background-color: var(--color-dark);
+    } 
+    100%{
+        background-color: var(--color-light);
+        transform: scale(1.2);
+    }
+}

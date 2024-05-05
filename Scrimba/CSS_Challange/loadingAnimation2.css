@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.square{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+.sq1{
+    background-color: blue;
+}
+.sq2{
+    background-color: orange;
+}
+.sq3{
+    background-color: red;
+}
+@keyframes loading{
+    0%{transform: rotate(0deg);}
+
+    100%{transform: rotate(306deg);}
+}
