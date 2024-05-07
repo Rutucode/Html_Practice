@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --bg-word: #5134ff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1::after{
+    content: "" ;
+    animation-name: swap;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    color: white;
+    background-color: var(--bg-word);
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+@keyframes swap{
+    0%{
+        content: " Cats " ;
+        
+    }
+   25%{
+        content: " coding " ;
+      
+    }
+    50%{
+        content: " Designing " ;
+        
+    }
+    75%{
+        content: " Swimming " ;
+     
+    }
+    100%{
+        content: " Cats " ;
+}
+}
