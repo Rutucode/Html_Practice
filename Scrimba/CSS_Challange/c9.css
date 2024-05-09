@@ -1,0 +1,34 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+:root{
+    --orange:  orange; 
+    --white:  white;
+    --green: green;
+    --flag-height: 350px;
+}
+.flags{
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 3/2);
+    display: grid;
+
+    
+    margin: 2em auto;
+}
+.orange{
+background: var(--orange);
+}
+.white{
+    background: var(--white);
+}
+.white img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.green{
+background-color: var(--green);
+}
