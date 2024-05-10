@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root { 
+    --white: #fff;
+    --red: #FF0002;
+    --flag-hw: 300px;
+}
+
+.flag-swiss {
+    height: var(--flag-hw);
+    width: var(--flag-hw);
+    background: var(--red);
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cross1 {
+    height: calc(var(--flag-hw) * 3/16);
+    width: calc(var(--flag-hw) * 5/8);
+    background: var(--white);
+}
+
+.cross2 {
+    height: calc(var(--flag-hw) * 5/8);
+    width: calc(var(--flag-hw) * 3/16);
+    background: var(--white);
+    position: absolute;
+}
+/*Way 2 
+.cross1 {
+    height: calc(var(--flag-hw) * 3/16);
+    width: calc(var(--flag-hw) * 5/8);
+    background: var(--white);
+}
+
+.cross2 {
+    height: calc(var(--flag-hw) * 5/8);
+    width: calc(var(--flag-hw) * 3/16);
+    background: var(--white);
+    position: absolute;
+}*/
+/*
+.flag{
+   
+    background-color: var( --red);
+    display: grid;
+    margin: 2rem auto; 
+    
+}
+.flag-swiss{
+   width: var(--flag-hw);
+    height: var(--flag-hw);
+     justify-content: center;
+    align-items: center;
+    display:flex; 
+    flex-wrap: wrap;
+}
+.cross{
+    justify-content: center;
+    align-items: center; 
+    background-color: var( --white);
+   margin: auto;
+}
+.cross1{
+    
+    height: 200px;
+    width: 50px;
+}
+.cross2{
+    
+   height: 200px;
+    width: 50px;
+  transform: rotate(-90deg); 
+ 
+}*/
