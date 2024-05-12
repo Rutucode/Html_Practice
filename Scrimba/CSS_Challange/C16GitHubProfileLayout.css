@@ -6,7 +6,7 @@ html, body {
 }
 
 :root {
-    --font-main: 'Noto Sans', sans-serif;
+    --font-main: 'Poppins', sans-serif;
     --main-bg: #000;
     --profile-bg: #0d1117;
     --profile-color: #c9d1d9;
@@ -18,4 +18,70 @@ html, body {
     --btn-bg-hover: #30363d;
     --btn-border: #373b43;
     --btn-border-hover: #8c949e;
+}
+    
+*{
+    font-family: var(--font-main);
+}
+.profile-container{
+    width: 80%;
+    max-width:  400px;
+    min-width: 250px;
+    margin: 1em auto;
+    background: var(--profile-bg);
+}
+/*An em is a unit of measurement, relative to the size of the font; therefore, in a typeface set at a font-size of 16px, one em is 16px.*/
+/*button{
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    width: 100%;
+    border: 1px solid var(--btn-border);
+    border-radius: 6px;
+    padding: .25em 0;
+    
+}
+button:hover{
+    background-color: var(--btn-bg-hover);
+    border: var(--btn-border-hover);
+}*/
+.profile-content{
+    padding: 1em 2em;
+}
+img{
+
+    height: 336px;
+    object-fit: cover;
+}
+.profile-content img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--profile-img-border);
+}
+.profile-details {
+    padding: 1em 0;
+}
+
+.profile-details h2, 
+.profile-details h3 {
+    margin: 0;
+}
+
+.profile-details h3 {
+    font-size: 1em;
+    color: var(--username-font-color);
+    font-weight: var(--username-font-weight);
+}
+.profile-details button {
+    width: 100%;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    border: 1px solid var(--btn-border);
+    border-radius: 6px;
+    padding: .25em 0;
+    font-family: inherit;
+}
+
+.profile-details button:hover {
+    background: var(--btn-bg-hover);
+    border-color: var(--btn-border-hover);
 }
