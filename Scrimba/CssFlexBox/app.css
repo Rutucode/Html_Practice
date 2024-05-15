@@ -1,8 +1,30 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    justify-content: space-around;
   }
   
-  /* flex-start flex-end center space-around
+  /* justify-content: space-around;
+  flex-start flex-end center space-around
   space-between space-evenly */
+  /*
+  .logout{
+    margin-left: auto;
+  }
+  */
+  /*
+.container > div {
+  flex: 1;
+}
+*/
+/*flex-grow, flex-shrink, flex-basis */
+/*
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.home {
+  align-self: flex-end;
+}*/
