@@ -1,0 +1,54 @@
+/*--20 June 24 Scrimba challange-- */
+
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+
+:root {
+    --card-height: 200px;
+}
+
+.container{
+    display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+   border: 1px solid black;
+    margin: auto;
+    height: var(--card-height);
+    width: calc(var(--card-height) * 2/3);
+    display: grid; 
+    padding: .5em; 
+    color: red; 
+    border-radius: 5px;
+    grid-template-columns: 10% 80% 10%;
+}
+.left{
+ font-size: 1.2em; 
+}
+.middle{
+   
+display: grid;
+grid-template-columns: 50% 50%;
+justify-content: center;
+align-items: center;
+   font-size: 2rem;
+   text-align: center;
+}
+
+.right{
+     font-size: 1.2em; 
+ transform: rotate(180deg);  
+ }
+ 
+ .left > div :first-child, .right > div :first-child {
+    padding : 2px;
+ }
+ 
+ .middle:nth-child(3), .middle:nth-child(4){
+    transform: rotate(180deg);
+ }
