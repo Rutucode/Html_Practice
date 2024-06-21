@@ -31,7 +31,7 @@ html, body {
     /*prevents from moving size of search bar when window is shortend*/
 }
 .search-bar{
-    
+    padding-left: 10px;
     width: 30%;
     line-height: 2;
     border-radius: 4px;
