@@ -4,6 +4,13 @@ body {
   padding: 0;
 }
 
+.karla {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 :root {
   --font: "Karla", sans-serif;
   --font-color: #fff;
