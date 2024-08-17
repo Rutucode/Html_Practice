@@ -1,3 +1,6 @@
+// 52 weeks per year
+//7days i.e.- 1 col with 7 blocks
+
 function generateRandomContributionStats(){
     const contributions = [];
     const levels = [0, 0, 0, 3, 5, 10];
